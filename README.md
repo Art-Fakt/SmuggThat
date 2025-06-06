@@ -19,8 +19,6 @@ SmuggThat offers several core features designed to simplify the process of ident
 
 - **Proxy Support**: The `-p` option allows you to route all requests through an HTTP proxy (host:port).
 
-- **Request Methods Customization**: The tool has the possibility to send requests in GET/POST/PUT and OPTIONS methods.
-
 - **Verbose Output**: Provides detailed output about the attack attempts, including HTTP responses, headers, and any signs of vulnerability detected.
 
 - **Log and Report Generation**: Automatically generates a detailed log of each scanning session, which can be used for further analysis or reporting purposes.
