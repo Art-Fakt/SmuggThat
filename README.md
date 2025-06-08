@@ -2,7 +2,7 @@
 
 **SmuggThat** is an automated tool designed for detecting HTTP Request Smuggling vulnerabilities in web applications. This vulnerability, also known as HTTP Desync Attack, occurs due to discrepancies in the processing of HTTP requests between front-end and back-end servers. The tool automates the detection and exploitation process, making it easier for penetration testers and security researchers to identify these critical vulnerabilities in their target web applications.
 
-The tool is only based on the difference of the time reponse to detect suspicious behaviour. If you test with the proxy option -p and you have smuggling detection, confirm the detection without proxy option.
+The tool is only based on the difference of the time reponse to detect suspicious behaviour. I will improve detection method as soon as possible, PR are welcome ;). If you test with the proxy option -p and you have smuggling detection, confirm the detection without proxy option.
 All suspicious vulnerable requests are save in Reports directory so you can test each requests in context of the vulnerable web application with a tool like BurpSuite.
 
 ## Features
